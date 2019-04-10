@@ -33,4 +33,4 @@ Además es oportuno revisar la documentación proporcionada por git:
 
 ## Instrucciones básicas para hacer uso de documentos MarkDown.
 En este sitio podemos encontrar una guía práctica para generar nuestros documentos MarkDown:
-- http://www.enrique7mc.com/2016/06/markdown-guia-rapida/
+- https://joedicastro.com/pages/markdown.html

@@ -8,7 +8,7 @@ materializar todos estos conceptos.
 
 **Nota:** _trate de ejecutar esta práctica donde exista un integrador y varios colaboradores, el objetivo de la práctica es generar
 pull request y que se generen conflictos, estos conflictos suelen suceder por inconsistencias de archivos modificados que existen 
-en su rama master, por favor tengan en cuenta y documento como se solucionan los conflictos y que aspectos de buenas prácticas se deben
+en su rama master, por favor documente como se solucionan los conflictos y que aspectos de buenas prácticas se deben
 tener en cuenta para evitar que sucedan_
 
 ## Link de profundización de conocimientos en git

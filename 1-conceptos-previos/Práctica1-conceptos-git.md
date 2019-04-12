@@ -6,10 +6,10 @@ materializar todos estos conceptos.
 
 [Link de acceso a la práctica de git](https://drive.google.com/file/d/1Q-uxDgGYqISEURrhfQfRlF64YRBrbu9I/view?usp=sharing)
 
-*Nota:* __ trate de ejecutar esta práctica donde exista un integrador y varios colaboradores, el objetivo de la práctica es generar
+**Nota:** _trate de ejecutar esta práctica donde exista un integrador y varios colaboradores, el objetivo de la práctica es generar
 pull request y que se generen conflictos, estos conflictos suelen suceder por inconsistencias de archivos modificados que existen 
 en su rama master, por favor tengan en cuenta y documento como se solucionan los conflictos y que aspectos de buenas prácticas se deben
-tener en cuenta para evitar que sucedan __
+tener en cuenta para evitar que sucedan_
 
 ## Link de profundización de conocimientos en git
 - Dejo a su disposición un mini curso paso a paso de conceptos de git ofrecido por la empresa PRAGMA subdivido en 6 partes 

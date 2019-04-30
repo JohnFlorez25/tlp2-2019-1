@@ -1,4 +1,4 @@
-# Repaso del cinta blanca solo Javascript
+# Conceptos básicos de programación con JavaScript
 
 ***Variables***
 >En programación, las variables son espacios reservados en la memoria que, como su nombre indica, pueden cambiar de contenido a lo largo de la ejecución de un programa. En ellas almacenamos algún tipo de dato

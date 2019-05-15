@@ -5,7 +5,7 @@ React al basar el desarrollo de apps en componentes, necesitamos crear elementos
 
 También necesitaremos indicar cuando se trata de componentes creados por nosotros con React, como puede ser un `<Image />, <List />`
 
-##Haciendo uso de React.createElement
+<h3>Haciendo uso de React.createElement</h3>
 
 Todo esto podemos hacerlo con JavaScript con los métodos que nos ofrece React como `React.createElement.` Para poder hacer uso de esta función debemos importar react:
 ```javascript
@@ -80,7 +80,7 @@ Notamos que se empieza a ver un poco complejo nuestro código con respecto a lo 
 
 Ahora veamos como se haría lo mismo pero empleando sintaxis JSX:
 
-##Qué es JSX?
+<h3>Qué es JSX?</h3>
 
 JSX es una extensión de JavaScript creada por Facebook para poder ser implementada en **React**. Sirve de preprocesador _(Como Sass o stylus en CSS) y transforma nuestro código a JavaScript, puede parecer qe estamos mezclando nuestro código HTML dentro de ficheros JavaScript, pero en realidad esto se debe a que React es Declarativo lo que quiere decir que se le indica qué debe hacer pero no cómo debe hacerse, ahorrando de esta manera muchos pasos.
 

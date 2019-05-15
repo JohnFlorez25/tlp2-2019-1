@@ -1,5 +1,5 @@
 
-<h2>Renderizando nuestra APP en React<h2>
+<h2>Renderizando nuestra APP en React</h2>
 
 React al basar el desarrollo de apps en componentes, necesitamos crear elementos HTML que definan nuestro componente, por ejemplo `<div>, <p>, <img>`.
 

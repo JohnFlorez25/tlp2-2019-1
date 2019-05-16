@@ -79,7 +79,7 @@ Tener en cuenta las siguientes consideranciones al momento de querer aplicar est
 4. Es posible utilizar Bootstrap con React, sólo debe ser instalado con `npm install bootstrap` y debe ser importado en el index.js
 5. Existen estilos que son usados de manera global o en varios componentes, así que deben ser importados en el index.js
 
-##Que son los Props?
+<h2>Que son los Props?</h2>
 Los props que es la forma corta de **properties** son argumentos de una función y en este caso serán los atributos de nuestro componente, esto es el analogo a los atributos que tiene una etiqueta html, por ejemplo, al crear una imagen usamos la etiqueta `<img>` y colocamos algunos atributos tales como `class`, `src` y `alt` obteniendo algo así:
 ```html
 <img class="Profile__logo" src={logoPoli} alt="Logo del Poli"/> 

@@ -1,4 +1,4 @@
-#Qué es un componente?
+<h1>Qué es un componente?</h1>
 
 Los componentes en React son bloques de construcción.
 Las aplicaciones hechas con React lo podemos interpretar haciendo referencia a las figuras de Lego.
@@ -6,7 +6,7 @@ Junta varias piezas __(componentes)__ y puedes construir un website tan pequeño
 
 Los componentes serán barras de búsquedas, enlaces, encabezados, el header, el nav y demás elementos que identificamos en una página web.
 
-###”Componente” vs “elemento""
+<h2>”Componente” vs “elemento""</h2>
 
 Recordemos aspectos de la programación orientada a objetos para definir este concepto:
 
@@ -26,13 +26,13 @@ Para identificar los componentes debemos hacernos las siguientes preguntas:
 
 Identificar componentes es una habilidad esencial para poder desarrollar aplicaciones de React.
 
-##Aspectos a tener en cuenta al crear componentes
+<h2>Aspectos a tener en cuenta al crear componentes</h2>
 
 1. Es una buena práctica que los componentes vivan en su propio archivo y para ello se les crea una carpeta. `components`
 2. Todos los componentes requieren por lo menos el método render que define cuál será el resultado que aparecerá en pantalla.
 3. El source de las imágenes en React puede contener direcciones en la web o se le puede hacer una referencia directa importándola. Si se importa deben usarse llaves para que sea evaluado.
 
-##Creando nuestra unidad básica (Componente) en react
+<h2>Creando nuestra unidad básica (Componente) en react</h2>
 
 Es importante tener clara la estructura básica para crear un componente,
 estos tienen las siguientes particularidades:
@@ -70,7 +70,7 @@ const container = document.getElementById('app');
 ReactDOM.render(<Profile /> , container);
 ```
 
-##Aplicar estilos a nuestros componentes
+<h2>Aplicar estilos a nuestros componentes</h2>
 Tener en cuenta las siguientes consideranciones al momento de querer aplicar estilos:
 1. Para los estilos crearemos una carpeta llamada Styles y allí vivirán todos los archivos de estilos que tienen que ver con los componentes.
 2. Para usar los estilos es necesario importarlos con import
@@ -78,12 +78,25 @@ Tener en cuenta las siguientes consideranciones al momento de querer aplicar est
 4. Es posible utilizar Bootstrap con React, sólo debe ser instalado con `npm install bootstrap` y debe ser importado en el index.js
 5. Existen estilos que son usados de manera global o en varios componentes, así que deben ser importados en el index.js
 
-##Que son los Props?
+<h2>Que son los Props?</h2>
 Los props que es la forma corta de **properties** son argumentos de una función y en este caso serán los atributos de nuestro componente, esto es el analogo a los atributos que tiene una etiqueta html, por ejemplo, al crear una imagen usamos la etiqueta `<img>` y colocamos algunos atributos tales como `class`, `src` y `alt` obteniendo algo así:
 ```html
 <img class="Profile__logo" src={logoPoli} alt="Logo del Poli"/> 
 ```
 Estos **atributos de la etiqueta** son nuestros **props en react**
 
-Estos props salen de una variable de la clase que se llama `this.props` y los valores son asignados directamente en el `ReactDOM.render().`
+Estos props salen de una variable de la clase que se llama `this.props` y los valores son asignados directamente en el `ReactDOM.render().` Por ejemplo:
+
+```javascript
+ReactDOM.render(
+<ProfileProps 
+    firstName = 'Elizabeth' 
+    lastName = 'Mejia Perez' 
+    jobTitle = 'Software Architect'
+    twitter = 'eliMeji'
+    avatarUrl = "https://s3.us-east-2.amazonaws.com/eafitrequisitos/avataaars.png"
+    /> , 
+    container);
+```
+
 

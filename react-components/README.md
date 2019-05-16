@@ -57,8 +57,8 @@ export default Profile;
 
 Para poder mostrar este componente debemos importarlo para su uso, para nuestro caso en la clase index.js se vería así:
 
->Nota: Recuerda que para mostrar nuestro componente debemos ponerlo en el ReactDOM.render debemos tener cuidado ya que al pasar el componente debemos mandarlo como un elemento! asi que nuestro componente debe ser enviado por parametro haciendo uso de `</>`
->
+Nota: Recuerda que para mostrar nuestro componente debemos ponerlo en el ReactDOM.render debemos tener cuidado ya que al pasar el componente debemos mandarlo como un elemento! asi que nuestro componente debe ser enviado por parametro haciendo uso de `</>`
+
 
 ```javascript
 import React from 'react';

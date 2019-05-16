@@ -16,7 +16,7 @@ Recordemos aspectos de la programación orientada a objetos para definir este co
 
 Si el elemento fuera una casa, el componente serían los planos para hacer esa casa.
 
-##Identificación de componentes
+<h2>Identificación de componentes</h2>
 
 Para identificar los componentes debemos hacernos las siguientes preguntas: 
 

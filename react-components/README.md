@@ -75,15 +75,15 @@ ReactDOM.render(<Profile /> , container);
 Tener en cuenta las siguientes consideranciones al momento de querer aplicar estilos:
 1. Para los estilos crearemos una carpeta llamada Styles y allí vivirán todos los archivos de estilos que tienen que ver con los componentes.
 2. Para usar los estilos es necesario importarlos con import
-3. React funciona ligeramente diferente y para los atributos de clases no se utiliza class sino `className`
-4. Es posible utilizar Bootstrap con React, sólo debe ser instalado con `npm install bootstrap` y debe ser importado en el index.js
+3. React funciona ligeramente diferente y para los atributos de clases no se utiliza class sino __className__
+4. Es posible utilizar Bootstrap con React, sólo debe ser instalado con __npm install bootstrap__ y debe ser importado en el index.js
 5. Existen estilos que son usados de manera global o en varios componentes, así que deben ser importados en el index.js
 
 
 
 __Que son los Props?__
 
-Los props que es la forma corta de **properties** son argumentos de una función y en este caso serán los atributos de nuestro componente, esto es el analogo a los atributos que tiene una etiqueta html, por ejemplo, al crear una imagen usamos la etiqueta `<img>` y colocamos algunos atributos tales como `class`, `src` y `alt` obteniendo algo así:
+Los props que es la forma corta de **properties** son argumentos de una función y en este caso serán los atributos de nuestro componente, esto es el analogo a los atributos que tiene una etiqueta html, por ejemplo, al crear una imagen usamos la etiqueta __img__ y colocamos algunos atributos tales como __class, src y alt__ obteniendo algo así:
 ```html
 <img class="Profile__logo" src={logoPoli} alt="Logo del Poli"/> 
 ```

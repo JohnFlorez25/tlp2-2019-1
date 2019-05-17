@@ -1,4 +1,7 @@
-#Nuestra Primera Página en React
-- Teniendo en cuenta los conceptos básicos de React, en esta sesión entrelazamos varios componentes de nuestro proyecto guía PoliAsamblea creando una página la cual es un componente que tiene integrado hasta el momento dos componetes, los cuales son:
-1. NavBar
-2. Card Profile
+#Enlazando Eventos
+
+- React dispone de **eventos**. Cada vez que se recibe información en un input se obtiene un evento **onChange** y se maneja con un método de la clase _this.handleChange_
+
+- Los elementos button también tienen un evento que es **onClick.**
+
+- Cuando hay un botón dentro de un formulario, este automáticamente será de tipo **submit**. Si no queremos que pase así hay dos maneras de evitarlo: especificando que su valor es de tipo button o manejándolo desde el formulario cuando ocurre el evento **onSubmit.**

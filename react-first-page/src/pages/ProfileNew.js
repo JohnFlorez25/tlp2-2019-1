@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBarComponent from '../components/NavBarComponent'
 import ProfileComponent from '../components/ProfileComponent'
-import header from '../images/logo.png'
+import ProfileForm from '../components/ProfileFormComponent'
 import '../styles/ProfileNew.css'
 
 class ProfileNew extends React.Component{
@@ -19,7 +19,7 @@ class ProfileNew extends React.Component{
 
                 <div className="container">
                     <div className="row">
-                        <div className="col">
+                        <div className="col-6">
                             <ProfileComponent     
                                         firstName = 'Elizabeth' 
                                         lastName = 'Mejia Perez' 
@@ -27,6 +27,9 @@ class ProfileNew extends React.Component{
                                         twitter = 'eliMeji'
                                         avatarUrl = "https://s3.us-east-2.amazonaws.com/eafitrequisitos/avataaars.png"
                             />
+                        </div>
+                        <div className="col-6">
+                            <ProfileForm />
                         </div>
                     </div>
 

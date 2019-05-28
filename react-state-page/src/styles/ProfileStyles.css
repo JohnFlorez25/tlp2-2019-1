@@ -1,0 +1,47 @@
+.Profile {
+    background: #ffffff;
+    box-shadow: 0 4px 8px 0 black;
+}
+
+.Profile__header{
+    padding: 10px;
+    background: #8bc34a;
+    display: flex;
+    justify-content: center;
+}
+
+.Profile__logo{
+    max-width: 100%;
+    height: auto;
+}
+
+.Profile__section-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.Profile__avatar{
+    margin-right: 15px;
+    width: 120px;
+    height: 120px;
+}
+
+.Profile__section-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+    background: lightgray;
+}
+
+.Profile__footer{
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-style: italic;
+    align-items: center;
+}

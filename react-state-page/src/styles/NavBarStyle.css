@@ -1,0 +1,27 @@
+.Navbar{
+    width: 100%;
+    padding: 0.5rem0;
+    background-color: #8bc34a;
+}
+
+
+.Navbar__brand{
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.Navbar__brand-text{
+    font-size: 25px;
+    color: white;
+}
+
+.Navbar__brand-text:hover{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.Navbar__brand-logo{
+    margin-right: 0.5rem;
+    height: 50px;
+}

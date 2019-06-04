@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 import Navbar from '../components/NavBarComponent';
 import ProfileList from '../components/ProfileListComponent';
@@ -53,7 +54,7 @@ class Profiles extends React.Component{
                     <div className="Profiles__buttons">
                         {/* Boton ancla, la ruta no existe aun, esto cambia cuando usamos
                         ReactRouter */}
-                        <a href="/profiles/new" className="btn btn-primary">Nuevo Perfil</a>
+                        <Link to="/profiles/new" className="btn btn-primary">Nuevo Perfil</Link>
                     </div>
                 </div>
                 {/* La lista que vamos a agregar debe de llegar de algun sitio lo que vamos a hacer

@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css'
 import './styles/global.css'
-import ProfileNew from './pages/ProfileNew';
-import Profiles from './pages/Profiles'
+// Creamos un nuevo componente llamado APP es aca donde voy a tener
+//Browser Router y voy a añadir mis rutas
+import App from './components/App'
 
 
 
@@ -11,4 +12,4 @@ import Profiles from './pages/Profiles'
 const container = document.getElementById('app');
 
 
-ReactDOM.render(<Profiles />, container);
+ReactDOM.render(<App />, container);

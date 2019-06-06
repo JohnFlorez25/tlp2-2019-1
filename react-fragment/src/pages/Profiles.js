@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-import Navbar from '../components/NavBarComponent';
 import ProfileList from '../components/ProfileListComponent';
 import confLogo from '../images/logoPoli.png'
 import '../styles/Profiles.css'
@@ -41,8 +40,7 @@ class Profiles extends React.Component{
     }
     render(){
         return (
-            <div>
-                <Navbar />
+            <React.Fragment>
                 <div className="Profiles">
                     <div className="Profiles__hero">
                         <div className="Profiles__container">
@@ -52,21 +50,16 @@ class Profiles extends React.Component{
                 </div> 
                 <div className="Profiles_container">
                     <div className="Profiles__buttons">
-                        {/* Boton ancla, la ruta no existe aun, esto cambia cuando usamos
-                        ReactRouter */}
                         <Link to="/profiles/new" className="btn btn-primary">Nuevo Perfil</Link>
                     </div>
                 </div>
-                {/* La lista que vamos a agregar debe de llegar de algun sitio lo que vamos a hacer
-                es tener unos datos tipo mook (datos quemados) para tener nuestra lista de
-                asistentes a la asamblea */}
                 <div className="Profiles__list">
                     <div className="Profiles_container">   
                         <ProfileList profiles={this.state.data} />
                     </div>
 
                 </div>
-            </div>
+            </React.Fragment>
             
         )
     }

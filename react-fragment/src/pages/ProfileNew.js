@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBarComponent from '../components/NavBarComponent'
 import ProfileComponent from '../components/ProfileComponent'
 import ProfileForm from '../components/ProfileFormComponent'
 import '../styles/ProfileNew.css'
@@ -23,8 +22,7 @@ class ProfileNew extends React.Component{
     }
     render(){
         return(
-            <div>
-                <NavBarComponent />
+            <React.Fragment>
                 <div className="ProfileNew__hero">
                     <span className="ProfileNew__hero-text">
                         "Bienvenido a nuestro portal,
@@ -54,7 +52,7 @@ class ProfileNew extends React.Component{
                     </div>
 
                 </div>
-            </div>
+            </React.Fragment>
         )
     }
 }

@@ -1,0 +1,24 @@
+.Home {
+    width: 100%;
+    min-height: calc(100vh - 40px);
+    background-color: #d5d83e;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%236eab6b' fill-opacity='0.48' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    color: white;
+  }
+  
+  .col-img img{	
+      width: 400px;
+      margin-left: 100px;
+  }
+  
+  
+  .col-text img{
+      margin-bottom: 20px;
+  }
+
+  .col-text p h1{
+    margin-bottom: 20px;
+}

@@ -15,7 +15,7 @@ class ProfileFormComponent extends React.Component{
 
     render(){
         return(
-            <div>
+            <React.Fragment>
                 <h1>Nuevo Asistente</h1>
 
                 <form onSubmit={this.handleSubmit} >
@@ -72,7 +72,7 @@ class ProfileFormComponent extends React.Component{
                     </div>
                     <button onClick={this.handleClick} className="btn btn-primary">Guardar</button>
                 </form>
-            </div>
+            </React.Fragment>
         )
     }
 }

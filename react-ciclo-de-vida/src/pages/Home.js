@@ -10,10 +10,10 @@ function Home() {
 		<div className="Home">
 			<dir className="col-text">
 				<img src={logo} alt="Poli conf logo"/>
-				<p>
+				<span>
 					<h1>CONFERENCIA <br/> POLI ASAMBLEA <br/> #SomosPoli</h1>
 					<Link className="btn btn-primary"to="/profiles">Iniciar</Link>
-				</p>
+				</span>
 			</dir>
 			<dir className="col-img">
 				<img src={che} alt="Che Guevara"/>

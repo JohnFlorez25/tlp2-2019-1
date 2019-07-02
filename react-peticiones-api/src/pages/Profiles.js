@@ -17,10 +17,11 @@ class Profiles extends React.Component{
     }
 
     componentDidMount(){ 
-        axios.get('https://rickandmortyapi.com/api/character/')
+        //https://rickandmortyapi.com/api/character/
+        axios.get('http://localhost:5700/api/profiles')
         .then(res =>{
             this.setState({
-                listProfiles:res.data.results
+                listProfiles:res.data.data
             })
         }).catch(err => console.log(err))
     }

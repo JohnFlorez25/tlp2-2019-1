@@ -10,14 +10,14 @@ class ProfileList extends React.Component{
                 {this.props.profiles.map(profile => {
                     return(
                         <li key={profile.id} className='Profile__section-name-list'>
-                            <img src={profile.image} className='Profile__avatar-list'/>
+                            <img alt="avatar" src={profile.avatarUrl} className='Profile__avatar-list'/>
                             <div>
-                                {profile.name}
+                                {profile.firstName} {profile.lastName}
                                 <br/>
-                                {profile.origin.name}
+                                {profile.jobTitle}
                                 <br/>
-                                <img src={tw_logo} className="tw__logo"/>
-                                <span className="twitter_blue_font">{profile.name}</span>
+                                <img alt="logo-twiter" src={tw_logo} className="tw__logo"/>
+                                <span className="twitter_blue_font">{profile.twitter}</span>
                             </div>
                         </li>
                     )

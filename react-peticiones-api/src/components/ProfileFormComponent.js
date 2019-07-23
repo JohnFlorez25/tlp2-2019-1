@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import axios from 'axios';
 
 class ProfileFormComponent extends React.Component{
     state = {};
@@ -10,7 +11,10 @@ class ProfileFormComponent extends React.Component{
     handleSubmit = e => {
         e.preventDefault();
         console.log("Form submit")
-        console.log(this.state)
+        console.log(this.props.formValues)
+        axios.post('http://localhost:5700/api/profiles', this.props.formValues)
+        .then(profile => alert('Profile create <3'))
+        .catch(err => alert(err))
     };
 
     render(){

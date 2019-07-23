@@ -21,7 +21,7 @@ class Profiles extends React.Component{
         axios.get('http://localhost:5700/api/profiles')
         .then(res =>{
             this.setState({
-                listProfiles:res.data.data
+                listProfiles: res.data
             })
         }).catch(err => console.log(err))
     }

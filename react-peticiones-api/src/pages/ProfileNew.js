@@ -2,15 +2,22 @@ import React from 'react';
 import ProfileComponent from '../components/ProfileComponent'
 import ProfileForm from '../components/ProfileFormComponent'
 import '../styles/ProfileNew.css'
+import axios from 'axios';
 
 class ProfileNew extends React.Component{
-    state = {form: {
-        firstName:'',
-        lastName:'',
-        jobTitle:'',
-        email:'',
-        twitter:''
-    }};
+
+    constructor(props){
+        super(props)
+        this.state = {
+            form: {
+                firstName:'',
+                lastName:'',
+                jobTitle:'',
+                email:'',
+                twitter:''
+            }
+        }
+    }
 
     handleChange = e =>{
         this.setState({
@@ -20,6 +27,7 @@ class ProfileNew extends React.Component{
             },
         })
     }
+
     render(){
         return(
             <React.Fragment>
